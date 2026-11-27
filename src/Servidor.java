@@ -8,7 +8,7 @@ public class Servidor {
     public static void main(String[] args) {
         // Crear ServerSocket en el puerto 5100
         final int PUERTO = 5100;
-        int intentos = 0;
+        int intentos = 1;
         int numeroRandom = (int) (Math.random() * 100) + 1;
         int clienteNumero = -5;
         boolean acertado;
